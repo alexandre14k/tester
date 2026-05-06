@@ -26,7 +26,9 @@ This section is informational only and does not modify the MIT License above.
 
 Educational Purpose
 
-This project is presented as an educational interpreter project intended for study, reading, and experimentation. This statement is descriptive only and does not restrict the rights granted by the MIT License.
+This project is presented as an educational interpreter project intended 
+for study, reading, and experimentation. This statement is descriptive only 
+and does not restrict the rights granted by the MIT License.
 
 Toolchain and Related Licensing Notes
 
@@ -37,17 +39,13 @@ The Rust project and official Rust tooling are generally dual-licensed under:
 - Apache License, Version 2.0
 - MIT License
 
-Reference:
-
-<https://www.rust-lang.org/policies/licenses>
+Reference: <https://www.rust-lang.org/policies/licenses>
 
 2. musl
 
 The release build flow targets static musl. musl is licensed under the MIT License.
 
-Reference:
-
-<https://musl.libc.org/about.html>
+Reference: <https://musl.libc.org/about.html>
 
 3. GCC
 
@@ -55,9 +53,7 @@ GCC may be used as part of the build environment only. It is not integrated into
 
 GCC itself is distributed under the GNU General Public License. Some GCC runtime components are associated with the GCC Runtime Library Exception.
 
-Reference:
-
-<https://www.gnu.org/licenses/gcc-exception.html>
+Reference: <https://www.gnu.org/licenses/gcc-exception.html>
 
 Repository Scope
 
@@ -67,4 +63,4 @@ Acknowledgement
 
 Honorable mention to Robert Nystrom for sharing the secret of REPL design:
 
-<https://craftinginterpreters.com/the-lox-language.html>
+Reference: <https://craftinginterpreters.com/the-lox-language.html>

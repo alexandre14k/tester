@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 alexandre14k
+Copyright (c) 2026 alexander14k28@gmail.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,52 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Third-Party and Toolchain Notices
+
+This section is informational only and does not modify the MIT License above.
+
+Educational Purpose
+
+This project is presented as an educational interpreter project intended for study, reading, and experimentation. This statement is descriptive only and does not restrict the rights granted by the MIT License.
+
+Toolchain and Related Licensing Notes
+
+1. Rust and Cargo
+
+The Rust project and official Rust tooling are generally dual-licensed under:
+
+- Apache License, Version 2.0
+- MIT License
+
+Reference:
+
+<https://www.rust-lang.org/policies/licenses>
+
+2. musl
+
+The release build flow targets static musl. musl is licensed under the MIT License.
+
+Reference:
+
+<https://musl.libc.org/about.html>
+
+3. GCC
+
+GCC may be used as part of the build environment only. It is not integrated into this repository as project source code. The project build flow uses a static musl target, and GCC is referenced here only as external toolchain context.
+
+GCC itself is distributed under the GNU General Public License. Some GCC runtime components are associated with the GCC Runtime Library Exception.
+
+Reference:
+
+<https://www.gnu.org/licenses/gcc-exception.html>
+
+Repository Scope
+
+At the time of writing, this repository does not declare external Rust crate dependencies in `Cargo.toml`.
+
+Acknowledgement
+
+Honorable mention to Robert Nystrom for sharing the secret of REPL design:
+
+<https://craftinginterpreters.com/the-lox-language.html>

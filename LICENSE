@@ -49,15 +49,19 @@ Reference: <https://musl.libc.org/about.html>
 
 3. GCC
 
-GCC may be used as part of the build environment only. It is not integrated into this repository as project source code. The project build flow uses a static musl target, and GCC is referenced here only as external toolchain context.
+GCC may be used as part of the build environment only. It is not integrated 
+into this repository as project source code. The project build flow uses a static 
+musl target, and GCC is referenced here only as external toolchain context.
 
-GCC itself is distributed under the GNU General Public License. Some GCC runtime components are associated with the GCC Runtime Library Exception.
+GCC itself is distributed under the GNU General Public License. Some GCC runtime 
+components are associated with the GCC Runtime Library Exception.
 
 Reference: <https://www.gnu.org/licenses/gcc-exception.html>
 
 Repository Scope
 
-At the time of writing, this repository does not declare external Rust crate dependencies in `Cargo.toml`.
+At the time of writing, this repository does not declare external Rust crate 
+dependencies in `Cargo.toml`.
 
 Acknowledgement
 

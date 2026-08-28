@@ -4,6 +4,8 @@
 
 It is structured for ease of understanding, incremental evolution, and direct reading of the codebase. The current implementation focuses on string features and a small set of system features. It is intended as an educational interpreter project, not as a replacement for Python.
 
+![Visitors](https://api.visitorbadge.io/api/VisitorHit?user=alexandre14k&repo=https://github.com/alexandre14k/tester&label=Views&labelColor=%23555555&countColor=%23007EC6)
+
 ## Status
 
 The project is open to continued evolution.
